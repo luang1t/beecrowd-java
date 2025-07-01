@@ -6,15 +6,14 @@ public class bee1002 {
 
         Scanner scanner = new Scanner(System.in);
 
-        double A = 0;
-        double n = 3.14159;
-        double R = 0;
+        double A, R;
+        double n = 3.14159f;
 
         R = scanner.nextDouble();
 
         A = n * (R * R);
 
-        System.out.println("A = " + A);
+        System.out.printf("A=%.4f\n", A);
 
         scanner.close();
     }
